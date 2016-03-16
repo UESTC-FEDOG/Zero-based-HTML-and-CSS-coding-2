@@ -1,0 +1,221 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+
+
+a {
+
+  text-decoration: none;
+
+}
+
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+
+img {
+  border: 0;
+}
+
+
+/* normalize/rest 结束*/
+
+body {
+  background-color: rgba(128,128,128,0.35);
+}
+
+section {
+  background-color: white;
+  margin: 20px 20px;
+}
+
+article {
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+article p {
+  text-indent: 2em;
+}
+.head {
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 30px;
+}
+
+.guidList {
+  float: right;
+  height: 30px;
+}
+/*
+.guidList:after {
+  display: block;
+  line-height: 0;
+  content: "";
+  clear: both;
+}*/
+
+ul {
+  margin: 0;
+}
+
+.guidList ul li{
+  float: left;
+  margin: 0 10px;
+  line-height: 30px;
+  color: black;
+}
+
+
+.head > h4 {
+  margin-top: 0;
+}
+
+#mainSec {
+  margin-right: 480px;
+  background-color: rgb(210,210,210);
+}
+
+.list-detail {
+  margin-bottom: 50px;
+  box-shadow: 2px 2px gray;
+}
+
+.article2 ul {
+  list-style: none;
+}
+
+.pic header {
+  margin: 20px 20px;
+}
+
+.pic div {
+  margin: 15px 30px;
+  border: 1px solid gray;
+  width: 150px;
+  height: 180px;
+  text-align: center;
+  display: inline-block;
+}
+
+.pic div img {
+  width: 100px;
+  height: 100px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.table tfoot {
+  background-color: gray;
+}
+.subSec {
+  width: 450px;
+  float: right;
+}
+.subSec h3{
+  margin: 10px;
+  padding-left: 20px
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: gray;
+  text-indent: 10px;
+}
+
+.subSec ol {
+  list-style: none;
+}
+
+.subSec form {
+  margin: 10px 20px;
+}
+.subSec form li {
+  display: block;
+}
+
+.subSec form li:after {
+  display: block;
+  line-height: 0;
+  content: "";
+  visibility: hidden;
+  clear: both;
+}
+
+.subSec form label {
+  float: left;
+  text-align: right;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.sub {
+  margin-left: 130px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+#comfirm {
+  width: 100%;
+  background-color: #2196F3;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer p{
+  margin-bottom: 0;
+}
