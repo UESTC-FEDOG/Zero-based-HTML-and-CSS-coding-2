@@ -85,6 +85,10 @@ article p {
   height: 30px;
 }
 
+.head h4 {
+  float: left;
+}
+
 .guidList {
   float: right;
   height: 30px;
@@ -131,7 +135,7 @@ ul {
   margin: 20px 20px;
 }
 
-.pic div {
+.pic figure {
   margin: 15px 30px;
   border: 1px solid gray;
   width: 150px;
@@ -140,10 +144,11 @@ ul {
   display: inline-block;
 }
 
-.pic div img {
-  width: 100px;
-  height: 100px;
+.pic figure img {
+  width: 130px;
+  height: 150px;
 }
+
 .table {
   width: 100%;
   border-collapse: collapse;
